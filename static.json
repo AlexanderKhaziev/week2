@@ -11,5 +11,10 @@
       "Content-Type": "text/plain; charset=UTF-8",
       "Access-Control-Allow-Origin": "*"
     }
+  },
+  "routes": {
+    "/*": "index.html",
+    "/login/": "login.html",
+    "/sample/": "sample.html"
   }
 }
